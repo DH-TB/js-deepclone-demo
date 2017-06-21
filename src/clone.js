@@ -11,13 +11,13 @@ function clone(data) {
     }
 }
 const obj = {
-    arr: [{a:1,f:{q:1}}, 2, 3],
-    obj: {key:'value'},
-    string:'hello world'
+    arr: [{a: 1, f: {q: 1}}, 2, 3],
+    obj: {key: 'value'},
+    string: 'hello world'
 };
 const obj1 = clone(obj);
-// console.log(obj1);
-//
-// const obj2 = Object.assign({}, obj);
-// console.log(obj2);
-// console.log(obj2===obj1);
+console.log(obj1);
+
+const obj2 = Object.assign({}, obj);
+console.log(obj2);
+console.log(obj2 === obj1);
