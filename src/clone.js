@@ -16,8 +16,8 @@ const obj = {
     string:'hello world'
 };
 const obj1 = clone(obj);
-console.log(obj1);
-const obj2 = Object.assign({}, obj);
-console.log(obj2);
-console.log(obj);
-console.log(obj2===obj);
+// console.log(obj1);
+//
+// const obj2 = Object.assign({}, obj);
+// console.log(obj2);
+// console.log(obj2===obj1);
