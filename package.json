@@ -1,0 +1,26 @@
+{
+  "name": "js-deepclone-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "copy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DH-TB/js-deepclone-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DH-TB/js-deepclone-demo/issues"
+  },
+  "homepage": "https://github.com/DH-TB/js-deepclone-demo#readme",
+  "dependencies": {
+    "jQuery": "^1.7.4",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.0.0",
+    "lodash": "^4.17.4"
+  }
+}
